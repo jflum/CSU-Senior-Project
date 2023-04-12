@@ -3668,8 +3668,8 @@ GameObject:
   - component: {fileID: 642678939}
   - component: {fileID: 642678938}
   - component: {fileID: 642678937}
-  - component: {fileID: 642678940}
   - component: {fileID: 642678941}
+  - component: {fileID: 642678940}
   m_Layer: 5
   m_Name: tutorial
   m_TagString: Untagged
@@ -3743,18 +3743,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 642678940}
-        m_TargetAssemblyTypeName: openurl, Assembly-CSharp
-        m_MethodName: OpenURL
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: https://github.com/jflum/CSU-Senior-Project/blob/master/docs/tutorial.pdf
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 642678941}
         m_TargetAssemblyTypeName: playsfx, Assembly-CSharp
         m_MethodName: PlaySFX
@@ -3765,6 +3753,18 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 642678940}
+        m_TargetAssemblyTypeName: openurl, Assembly-CSharp
+        m_MethodName: OpenURL
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: https://github.com/jflum/CSU-Senior-Project/blob/master/docs/tutorial.pdf
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &642678938
@@ -3817,6 +3817,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b0e7b630a664a0448461d08e90c5454, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sfxSource: {fileID: 1813579300}
 --- !u!114 &642678941
 MonoBehaviour:
   m_ObjectHideFlags: 0

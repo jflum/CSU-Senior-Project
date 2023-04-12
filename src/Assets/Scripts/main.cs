@@ -64,6 +64,7 @@ public class main : MonoBehaviour {
     private string gameModeStr;
     private string difficultyStr;
 
+    private const int   DEF_HISCORE   = 1000;
     private const float WAIT_HOLD_SEC = 2.0f; //amount of time to disable input in end game
     private const float FAST_BMG_TIME = 5.0f;
     private const float NORM_BMG_TIME = 10.0f;
@@ -94,7 +95,10 @@ public class main : MonoBehaviour {
         timerScript = GameObject.Find("timer").GetComponent<timer>();
 
         userInput = GameObject.Find("input").GetComponent<TMP_InputField>();
-        hiScore.text = PlayerPrefs.GetInt("hiscore", 1000).ToString("d6");
+        hiScore.text = PlayerPrefs.GetInt("hiscore", DEF_HISCORE).ToString("d6");
+        PlayerPrefs.SetInt("hiscore",  int.Parse(hiScore.text));
+        PlayerPrefs.Save();
+
         flashScript = userInput.GetComponent<flash>();
     }
 
