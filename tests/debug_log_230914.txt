@@ -43,62 +43,62 @@ UnityEngine.Debug:Log (object)
 field:BuildField (int,single,bool,int,bool,bool,bool,single,single) (at Assets/Scripts/field.cs:200)
 main:Start () (at Assets/Scripts/main.cs:97)
 
-  * INFO: availBGColors: green, red, blue, white, black, yellow, orange, purple, 
+  * INFO: availColors: black, blue, green, orange, purple, red, yellow, white, 
 UnityEngine.Debug:Log (object)
-field:BuildField (int,single,bool,int,bool,bool,bool,single,single) (at Assets/Scripts/field.cs:219)
+field:BuildField (int,single,bool,int,bool,bool,bool,single,single) (at Assets/Scripts/field.cs:213)
 main:Start () (at Assets/Scripts/main.cs:97)
 
-  * INFO: availShapes: circle, square, rectangle, triangle, 
+  * INFO: availShapes: triangle, circle, rectangle, square, 
 UnityEngine.Debug:Log (object)
-field:BuildField (int,single,bool,int,bool,bool,bool,single,single) (at Assets/Scripts/field.cs:231)
+field:BuildField (int,single,bool,int,bool,bool,bool,single,single) (at Assets/Scripts/field.cs:229)
 main:Start () (at Assets/Scripts/main.cs:97)
 
 TILE.CS TEST (ITERATION #1)
 UnityEngine.Debug:Log (object)
-field:BuildField (int,single,bool,int,bool,bool,bool,single,single) (at Assets/Scripts/field.cs:258)
+field:BuildField (int,single,bool,int,bool,bool,bool,single,single) (at Assets/Scripts/field.cs:256)
 main:Start () (at Assets/Scripts/main.cs:97)
 
 --> PASS: tile1 with id (#1) and complexity of (2) successfully populated
 UnityEngine.Debug:Log (object)
 tile:Populate (single,int,int,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,int) (at Assets/Scripts/tile.cs:350)
-field:BuildField (int,single,bool,int,bool,bool,bool,single,single) (at Assets/Scripts/field.cs:273)
+field:BuildField (int,single,bool,int,bool,bool,bool,single,single) (at Assets/Scripts/field.cs:271)
 main:Start () (at Assets/Scripts/main.cs:97)
 
 --> PASS: tile2 with id (#2) and complexity of (2) successfully populated
 UnityEngine.Debug:Log (object)
 tile:Populate (single,int,int,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,int) (at Assets/Scripts/tile.cs:350)
-field:BuildField (int,single,bool,int,bool,bool,bool,single,single) (at Assets/Scripts/field.cs:273)
+field:BuildField (int,single,bool,int,bool,bool,bool,single,single) (at Assets/Scripts/field.cs:271)
 main:Start () (at Assets/Scripts/main.cs:97)
 
 FIELD.CS TEST cont. (ITERATION #1)
 UnityEngine.Debug:Log (object)
-field:BuildField (int,single,bool,int,bool,bool,bool,single,single) (at Assets/Scripts/field.cs:286)
+field:BuildField (int,single,bool,int,bool,bool,bool,single,single) (at Assets/Scripts/field.cs:284)
 main:Start () (at Assets/Scripts/main.cs:97)
 
 --> PASS: qty (1) unique queries is possible with (2) tiles of (3) attributes
 UnityEngine.Debug:Log (object)
-field:GenerateQA (int,int) (at Assets/Scripts/field.cs:311)
+field:GenerateQA (int,int) (at Assets/Scripts/field.cs:309)
 main:Start () (at Assets/Scripts/main.cs:99)
 
-  * INFO: selected tileID for query: 2
+  * INFO: selected tileID for query: 1
 UnityEngine.Debug:Log (object)
-field:GenerateQA (int,int) (at Assets/Scripts/field.cs:325)
+field:GenerateQA (int,int) (at Assets/Scripts/field.cs:323)
 main:Start () (at Assets/Scripts/main.cs:99)
 
-  * INFO: selected attribute for query: 1
+  * INFO: selected attribute for query: 2
 UnityEngine.Debug:Log (object)
-field:GenerateQA (int,int) (at Assets/Scripts/field.cs:326)
+field:GenerateQA (int,int) (at Assets/Scripts/field.cs:324)
 main:Start () (at Assets/Scripts/main.cs:99)
 
---> PASS: valid query set for selected tile & attribute: "What is the background color of tile #2?
+--> PASS: valid query set for selected tile & attribute: "What shape appears in tile #1?
 "
 UnityEngine.Debug:Log (object)
-field:GenerateQA (int,int) (at Assets/Scripts/field.cs:377)
+field:GenerateQA (int,int) (at Assets/Scripts/field.cs:375)
 main:Start () (at Assets/Scripts/main.cs:99)
 
---> PASS: valid answer set for selected query: "red"
+--> PASS: valid answer set for selected query: "triangle"
 UnityEngine.Debug:Log (object)
-field:GenerateQA (int,int) (at Assets/Scripts/field.cs:378)
+field:GenerateQA (int,int) (at Assets/Scripts/field.cs:376)
 main:Start () (at Assets/Scripts/main.cs:99)
 
 MAIN.CS TEST cont. (ITERATION #1)
@@ -149,68 +149,68 @@ UnityEngine.Debug:Log (object)
 field:BuildField (int,single,bool,int,bool,bool,bool,single,single) (at Assets/Scripts/field.cs:200)
 main:Update () (at Assets/Scripts/main.cs:170)
 
-  * INFO: availBGColors: white, black, orange, purple, green, yellow, blue, red, 
+  * INFO: availColors: black, blue, green, orange, purple, red, yellow, white, 
 UnityEngine.Debug:Log (object)
-field:BuildField (int,single,bool,int,bool,bool,bool,single,single) (at Assets/Scripts/field.cs:219)
+field:BuildField (int,single,bool,int,bool,bool,bool,single,single) (at Assets/Scripts/field.cs:213)
 main:Update () (at Assets/Scripts/main.cs:170)
 
-  * INFO: availShapes: rectangle, diamond, circle, square, triangle, hexagon, 
+  * INFO: availShapes: square, diamond, rectangle, triangle, circle, hexagon, 
 UnityEngine.Debug:Log (object)
-field:BuildField (int,single,bool,int,bool,bool,bool,single,single) (at Assets/Scripts/field.cs:231)
+field:BuildField (int,single,bool,int,bool,bool,bool,single,single) (at Assets/Scripts/field.cs:229)
 main:Update () (at Assets/Scripts/main.cs:170)
 
 TILE.CS TEST (ITERATION #2)
 UnityEngine.Debug:Log (object)
-field:BuildField (int,single,bool,int,bool,bool,bool,single,single) (at Assets/Scripts/field.cs:258)
+field:BuildField (int,single,bool,int,bool,bool,bool,single,single) (at Assets/Scripts/field.cs:256)
 main:Update () (at Assets/Scripts/main.cs:170)
 
 --> PASS: tile1 with id (#1) and complexity of (3) successfully populated
 UnityEngine.Debug:Log (object)
 tile:Populate (single,int,int,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,int) (at Assets/Scripts/tile.cs:350)
-field:BuildField (int,single,bool,int,bool,bool,bool,single,single) (at Assets/Scripts/field.cs:273)
+field:BuildField (int,single,bool,int,bool,bool,bool,single,single) (at Assets/Scripts/field.cs:271)
 main:Update () (at Assets/Scripts/main.cs:170)
 
 --> PASS: tile2 with id (#2) and complexity of (3) successfully populated
 UnityEngine.Debug:Log (object)
 tile:Populate (single,int,int,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,int) (at Assets/Scripts/tile.cs:350)
-field:BuildField (int,single,bool,int,bool,bool,bool,single,single) (at Assets/Scripts/field.cs:273)
+field:BuildField (int,single,bool,int,bool,bool,bool,single,single) (at Assets/Scripts/field.cs:271)
 main:Update () (at Assets/Scripts/main.cs:170)
 
 --> PASS: tile3 with id (#3) and complexity of (3) successfully populated
 UnityEngine.Debug:Log (object)
 tile:Populate (single,int,int,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,int) (at Assets/Scripts/tile.cs:350)
-field:BuildField (int,single,bool,int,bool,bool,bool,single,single) (at Assets/Scripts/field.cs:273)
+field:BuildField (int,single,bool,int,bool,bool,bool,single,single) (at Assets/Scripts/field.cs:271)
 main:Update () (at Assets/Scripts/main.cs:170)
 
 FIELD.CS TEST cont. (ITERATION #2)
 UnityEngine.Debug:Log (object)
-field:BuildField (int,single,bool,int,bool,bool,bool,single,single) (at Assets/Scripts/field.cs:286)
+field:BuildField (int,single,bool,int,bool,bool,bool,single,single) (at Assets/Scripts/field.cs:284)
 main:Update () (at Assets/Scripts/main.cs:170)
 
 --> PASS: qty (1) unique queries is possible with (3) tiles of (5) attributes
 UnityEngine.Debug:Log (object)
-field:GenerateQA (int,int) (at Assets/Scripts/field.cs:311)
+field:GenerateQA (int,int) (at Assets/Scripts/field.cs:309)
 main:Update () (at Assets/Scripts/main.cs:172)
 
-  * INFO: selected tileID for query: 3
+  * INFO: selected tileID for query: 2
 UnityEngine.Debug:Log (object)
-field:GenerateQA (int,int) (at Assets/Scripts/field.cs:325)
+field:GenerateQA (int,int) (at Assets/Scripts/field.cs:323)
 main:Update () (at Assets/Scripts/main.cs:172)
 
-  * INFO: selected attribute for query: 1
+  * INFO: selected attribute for query: 3
 UnityEngine.Debug:Log (object)
-field:GenerateQA (int,int) (at Assets/Scripts/field.cs:326)
+field:GenerateQA (int,int) (at Assets/Scripts/field.cs:324)
 main:Update () (at Assets/Scripts/main.cs:172)
 
---> PASS: valid query set for selected tile & attribute: "What is the background color of tile #3?
+--> PASS: valid query set for selected tile & attribute: "What is the color of the diamond?
 "
 UnityEngine.Debug:Log (object)
-field:GenerateQA (int,int) (at Assets/Scripts/field.cs:377)
+field:GenerateQA (int,int) (at Assets/Scripts/field.cs:375)
 main:Update () (at Assets/Scripts/main.cs:172)
 
---> PASS: valid answer set for selected query: "purple"
+--> PASS: valid answer set for selected query: "green"
 UnityEngine.Debug:Log (object)
-field:GenerateQA (int,int) (at Assets/Scripts/field.cs:378)
+field:GenerateQA (int,int) (at Assets/Scripts/field.cs:376)
 main:Update () (at Assets/Scripts/main.cs:172)
 
 MAIN.CS TEST cont. (ITERATION #2)
@@ -261,74 +261,74 @@ UnityEngine.Debug:Log (object)
 field:BuildField (int,single,bool,int,bool,bool,bool,single,single) (at Assets/Scripts/field.cs:200)
 main:Update () (at Assets/Scripts/main.cs:170)
 
-  * INFO: availBGColors: orange, purple, red, black, blue, white, green, yellow, 
+  * INFO: availColors: black, blue, green, orange, purple, red, yellow, white, 
 UnityEngine.Debug:Log (object)
-field:BuildField (int,single,bool,int,bool,bool,bool,single,single) (at Assets/Scripts/field.cs:219)
+field:BuildField (int,single,bool,int,bool,bool,bool,single,single) (at Assets/Scripts/field.cs:213)
 main:Update () (at Assets/Scripts/main.cs:170)
 
-  * INFO: availShapes: circle, square, triangle, hexagon, rectangle, diamond, 
+  * INFO: availShapes: diamond, hexagon, rectangle, circle, triangle, square, 
 UnityEngine.Debug:Log (object)
-field:BuildField (int,single,bool,int,bool,bool,bool,single,single) (at Assets/Scripts/field.cs:231)
+field:BuildField (int,single,bool,int,bool,bool,bool,single,single) (at Assets/Scripts/field.cs:229)
 main:Update () (at Assets/Scripts/main.cs:170)
 
 TILE.CS TEST (ITERATION #3)
 UnityEngine.Debug:Log (object)
-field:BuildField (int,single,bool,int,bool,bool,bool,single,single) (at Assets/Scripts/field.cs:258)
+field:BuildField (int,single,bool,int,bool,bool,bool,single,single) (at Assets/Scripts/field.cs:256)
 main:Update () (at Assets/Scripts/main.cs:170)
 
 --> PASS: tile1 with id (#1) and complexity of (4) successfully populated
 UnityEngine.Debug:Log (object)
 tile:Populate (single,int,int,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,int) (at Assets/Scripts/tile.cs:350)
-field:BuildField (int,single,bool,int,bool,bool,bool,single,single) (at Assets/Scripts/field.cs:273)
+field:BuildField (int,single,bool,int,bool,bool,bool,single,single) (at Assets/Scripts/field.cs:271)
 main:Update () (at Assets/Scripts/main.cs:170)
 
 --> PASS: tile2 with id (#2) and complexity of (4) successfully populated
 UnityEngine.Debug:Log (object)
 tile:Populate (single,int,int,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,int) (at Assets/Scripts/tile.cs:350)
-field:BuildField (int,single,bool,int,bool,bool,bool,single,single) (at Assets/Scripts/field.cs:273)
+field:BuildField (int,single,bool,int,bool,bool,bool,single,single) (at Assets/Scripts/field.cs:271)
 main:Update () (at Assets/Scripts/main.cs:170)
 
 --> PASS: tile3 with id (#3) and complexity of (4) successfully populated
 UnityEngine.Debug:Log (object)
 tile:Populate (single,int,int,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,int) (at Assets/Scripts/tile.cs:350)
-field:BuildField (int,single,bool,int,bool,bool,bool,single,single) (at Assets/Scripts/field.cs:273)
+field:BuildField (int,single,bool,int,bool,bool,bool,single,single) (at Assets/Scripts/field.cs:271)
 main:Update () (at Assets/Scripts/main.cs:170)
 
 --> PASS: tile4 with id (#4) and complexity of (4) successfully populated
 UnityEngine.Debug:Log (object)
 tile:Populate (single,int,int,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,int) (at Assets/Scripts/tile.cs:350)
-field:BuildField (int,single,bool,int,bool,bool,bool,single,single) (at Assets/Scripts/field.cs:273)
+field:BuildField (int,single,bool,int,bool,bool,bool,single,single) (at Assets/Scripts/field.cs:271)
 main:Update () (at Assets/Scripts/main.cs:170)
 
 FIELD.CS TEST cont. (ITERATION #3)
 UnityEngine.Debug:Log (object)
-field:BuildField (int,single,bool,int,bool,bool,bool,single,single) (at Assets/Scripts/field.cs:286)
+field:BuildField (int,single,bool,int,bool,bool,bool,single,single) (at Assets/Scripts/field.cs:284)
 main:Update () (at Assets/Scripts/main.cs:170)
 
 --> PASS: qty (1) unique queries is possible with (4) tiles of (8) attributes
 UnityEngine.Debug:Log (object)
-field:GenerateQA (int,int) (at Assets/Scripts/field.cs:311)
+field:GenerateQA (int,int) (at Assets/Scripts/field.cs:309)
 main:Update () (at Assets/Scripts/main.cs:172)
 
   * INFO: selected tileID for query: 4
 UnityEngine.Debug:Log (object)
-field:GenerateQA (int,int) (at Assets/Scripts/field.cs:325)
+field:GenerateQA (int,int) (at Assets/Scripts/field.cs:323)
 main:Update () (at Assets/Scripts/main.cs:172)
 
-  * INFO: selected attribute for query: 4
+  * INFO: selected attribute for query: 5
 UnityEngine.Debug:Log (object)
-field:GenerateQA (int,int) (at Assets/Scripts/field.cs:326)
+field:GenerateQA (int,int) (at Assets/Scripts/field.cs:324)
 main:Update () (at Assets/Scripts/main.cs:172)
 
---> PASS: valid query set for selected tile & attribute: "What number is displayed in tile #4?
+--> PASS: valid query set for selected tile & attribute: "What is the color of the number "6"?
 "
 UnityEngine.Debug:Log (object)
-field:GenerateQA (int,int) (at Assets/Scripts/field.cs:377)
+field:GenerateQA (int,int) (at Assets/Scripts/field.cs:375)
 main:Update () (at Assets/Scripts/main.cs:172)
 
---> PASS: valid answer set for selected query: "five"
+--> PASS: valid answer set for selected query: "orange"
 UnityEngine.Debug:Log (object)
-field:GenerateQA (int,int) (at Assets/Scripts/field.cs:378)
+field:GenerateQA (int,int) (at Assets/Scripts/field.cs:376)
 main:Update () (at Assets/Scripts/main.cs:172)
 
 MAIN.CS TEST cont. (ITERATION #3)
@@ -379,85 +379,85 @@ UnityEngine.Debug:Log (object)
 field:BuildField (int,single,bool,int,bool,bool,bool,single,single) (at Assets/Scripts/field.cs:200)
 main:Update () (at Assets/Scripts/main.cs:170)
 
-  * INFO: availBGColors: yellow, white, green, cyan, red, orange, black, blue, magenta, purple, 
+  * INFO: availColors: black, blue, green, orange, purple, red, yellow, white, cyan, magenta, 
 UnityEngine.Debug:Log (object)
-field:BuildField (int,single,bool,int,bool,bool,bool,single,single) (at Assets/Scripts/field.cs:219)
+field:BuildField (int,single,bool,int,bool,bool,bool,single,single) (at Assets/Scripts/field.cs:213)
 main:Update () (at Assets/Scripts/main.cs:170)
 
-  * INFO: availShapes: diamond, hexagon, rectangle, square, circle, triangle, 
+  * INFO: availShapes: rectangle, square, hexagon, circle, triangle, diamond, 
 UnityEngine.Debug:Log (object)
-field:BuildField (int,single,bool,int,bool,bool,bool,single,single) (at Assets/Scripts/field.cs:231)
+field:BuildField (int,single,bool,int,bool,bool,bool,single,single) (at Assets/Scripts/field.cs:229)
 main:Update () (at Assets/Scripts/main.cs:170)
 
 TILE.CS TEST (ITERATION #4)
 UnityEngine.Debug:Log (object)
-field:BuildField (int,single,bool,int,bool,bool,bool,single,single) (at Assets/Scripts/field.cs:258)
+field:BuildField (int,single,bool,int,bool,bool,bool,single,single) (at Assets/Scripts/field.cs:256)
 main:Update () (at Assets/Scripts/main.cs:170)
 
---> PASS: tile1 with id (#4) and complexity of (4) successfully populated
+--> PASS: tile1 with id (#3) and complexity of (4) successfully populated
 UnityEngine.Debug:Log (object)
 tile:Populate (single,int,int,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,int) (at Assets/Scripts/tile.cs:350)
-field:BuildField (int,single,bool,int,bool,bool,bool,single,single) (at Assets/Scripts/field.cs:273)
+field:BuildField (int,single,bool,int,bool,bool,bool,single,single) (at Assets/Scripts/field.cs:271)
 main:Update () (at Assets/Scripts/main.cs:170)
 
---> PASS: tile2 with id (#3) and complexity of (4) successfully populated
+--> PASS: tile2 with id (#2) and complexity of (4) successfully populated
 UnityEngine.Debug:Log (object)
 tile:Populate (single,int,int,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,int) (at Assets/Scripts/tile.cs:350)
-field:BuildField (int,single,bool,int,bool,bool,bool,single,single) (at Assets/Scripts/field.cs:273)
+field:BuildField (int,single,bool,int,bool,bool,bool,single,single) (at Assets/Scripts/field.cs:271)
 main:Update () (at Assets/Scripts/main.cs:170)
 
---> PASS: tile3 with id (#2) and complexity of (4) successfully populated
+--> PASS: tile3 with id (#4) and complexity of (4) successfully populated
 UnityEngine.Debug:Log (object)
 tile:Populate (single,int,int,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,int) (at Assets/Scripts/tile.cs:350)
-field:BuildField (int,single,bool,int,bool,bool,bool,single,single) (at Assets/Scripts/field.cs:273)
+field:BuildField (int,single,bool,int,bool,bool,bool,single,single) (at Assets/Scripts/field.cs:271)
 main:Update () (at Assets/Scripts/main.cs:170)
 
 --> PASS: tile4 with id (#1) and complexity of (4) successfully populated
 UnityEngine.Debug:Log (object)
 tile:Populate (single,int,int,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,int) (at Assets/Scripts/tile.cs:350)
-field:BuildField (int,single,bool,int,bool,bool,bool,single,single) (at Assets/Scripts/field.cs:273)
+field:BuildField (int,single,bool,int,bool,bool,bool,single,single) (at Assets/Scripts/field.cs:271)
 main:Update () (at Assets/Scripts/main.cs:170)
 
 FIELD.CS TEST cont. (ITERATION #4)
 UnityEngine.Debug:Log (object)
-field:BuildField (int,single,bool,int,bool,bool,bool,single,single) (at Assets/Scripts/field.cs:286)
+field:BuildField (int,single,bool,int,bool,bool,bool,single,single) (at Assets/Scripts/field.cs:284)
 main:Update () (at Assets/Scripts/main.cs:170)
 
 --> PASS: qty (2) unique queries is possible with (4) tiles of (8) attributes
 UnityEngine.Debug:Log (object)
-field:GenerateQA (int,int) (at Assets/Scripts/field.cs:311)
-main:Update () (at Assets/Scripts/main.cs:172)
-
-  * INFO: selected tileID for query: 3
-UnityEngine.Debug:Log (object)
-field:GenerateQA (int,int) (at Assets/Scripts/field.cs:325)
-main:Update () (at Assets/Scripts/main.cs:172)
-
-  * INFO: selected attribute for query: 3
-UnityEngine.Debug:Log (object)
-field:GenerateQA (int,int) (at Assets/Scripts/field.cs:326)
+field:GenerateQA (int,int) (at Assets/Scripts/field.cs:309)
 main:Update () (at Assets/Scripts/main.cs:172)
 
   * INFO: selected tileID for query: 4
 UnityEngine.Debug:Log (object)
-field:GenerateQA (int,int) (at Assets/Scripts/field.cs:325)
+field:GenerateQA (int,int) (at Assets/Scripts/field.cs:323)
+main:Update () (at Assets/Scripts/main.cs:172)
+
+  * INFO: selected attribute for query: 7
+UnityEngine.Debug:Log (object)
+field:GenerateQA (int,int) (at Assets/Scripts/field.cs:324)
+main:Update () (at Assets/Scripts/main.cs:172)
+
+  * INFO: selected tileID for query: 4
+UnityEngine.Debug:Log (object)
+field:GenerateQA (int,int) (at Assets/Scripts/field.cs:323)
 main:Update () (at Assets/Scripts/main.cs:172)
 
   * INFO: selected attribute for query: 1
 UnityEngine.Debug:Log (object)
-field:GenerateQA (int,int) (at Assets/Scripts/field.cs:326)
+field:GenerateQA (int,int) (at Assets/Scripts/field.cs:324)
 main:Update () (at Assets/Scripts/main.cs:172)
 
---> PASS: valid query set for selected tile & attribute: "What is the color of the hexagon?
+--> PASS: valid query set for selected tile & attribute: "What shape is written in tile #4?
 What is the background color of tile #4?
 "
 UnityEngine.Debug:Log (object)
-field:GenerateQA (int,int) (at Assets/Scripts/field.cs:377)
+field:GenerateQA (int,int) (at Assets/Scripts/field.cs:375)
 main:Update () (at Assets/Scripts/main.cs:172)
 
---> PASS: valid answer set for selected query: "white yellow"
+--> PASS: valid answer set for selected query: "triangle orange"
 UnityEngine.Debug:Log (object)
-field:GenerateQA (int,int) (at Assets/Scripts/field.cs:378)
+field:GenerateQA (int,int) (at Assets/Scripts/field.cs:376)
 main:Update () (at Assets/Scripts/main.cs:172)
 
 MAIN.CS TEST cont. (ITERATION #4)
@@ -508,84 +508,84 @@ UnityEngine.Debug:Log (object)
 field:BuildField (int,single,bool,int,bool,bool,bool,single,single) (at Assets/Scripts/field.cs:200)
 main:Update () (at Assets/Scripts/main.cs:170)
 
-  * INFO: availBGColors: blue, red, orange, yellow, black, green, white, cyan, magenta, purple, 
+  * INFO: availColors: black, blue, green, orange, purple, red, yellow, white, cyan, magenta, 
 UnityEngine.Debug:Log (object)
-field:BuildField (int,single,bool,int,bool,bool,bool,single,single) (at Assets/Scripts/field.cs:219)
+field:BuildField (int,single,bool,int,bool,bool,bool,single,single) (at Assets/Scripts/field.cs:213)
 main:Update () (at Assets/Scripts/main.cs:170)
 
-  * INFO: availShapes: rectangle, diamond, circle, triangle, hexagon, square, 
+  * INFO: availShapes: hexagon, square, diamond, circle, rectangle, triangle, 
 UnityEngine.Debug:Log (object)
-field:BuildField (int,single,bool,int,bool,bool,bool,single,single) (at Assets/Scripts/field.cs:231)
+field:BuildField (int,single,bool,int,bool,bool,bool,single,single) (at Assets/Scripts/field.cs:229)
 main:Update () (at Assets/Scripts/main.cs:170)
 
 TILE.CS TEST (ITERATION #5)
 UnityEngine.Debug:Log (object)
-field:BuildField (int,single,bool,int,bool,bool,bool,single,single) (at Assets/Scripts/field.cs:258)
+field:BuildField (int,single,bool,int,bool,bool,bool,single,single) (at Assets/Scripts/field.cs:256)
 main:Update () (at Assets/Scripts/main.cs:170)
 
---> PASS: tile1 with id (#3) and complexity of (4) successfully populated
+--> PASS: tile1 with id (#1) and complexity of (4) successfully populated
 UnityEngine.Debug:Log (object)
 tile:Populate (single,int,int,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,int) (at Assets/Scripts/tile.cs:350)
-field:BuildField (int,single,bool,int,bool,bool,bool,single,single) (at Assets/Scripts/field.cs:273)
+field:BuildField (int,single,bool,int,bool,bool,bool,single,single) (at Assets/Scripts/field.cs:271)
 main:Update () (at Assets/Scripts/main.cs:170)
 
---> PASS: tile2 with id (#2) and complexity of (4) successfully populated
+--> PASS: tile2 with id (#4) and complexity of (4) successfully populated
 UnityEngine.Debug:Log (object)
 tile:Populate (single,int,int,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,int) (at Assets/Scripts/tile.cs:350)
-field:BuildField (int,single,bool,int,bool,bool,bool,single,single) (at Assets/Scripts/field.cs:273)
+field:BuildField (int,single,bool,int,bool,bool,bool,single,single) (at Assets/Scripts/field.cs:271)
 main:Update () (at Assets/Scripts/main.cs:170)
 
---> PASS: tile3 with id (#4) and complexity of (4) successfully populated
+--> PASS: tile3 with id (#3) and complexity of (4) successfully populated
 UnityEngine.Debug:Log (object)
 tile:Populate (single,int,int,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,int) (at Assets/Scripts/tile.cs:350)
-field:BuildField (int,single,bool,int,bool,bool,bool,single,single) (at Assets/Scripts/field.cs:273)
+field:BuildField (int,single,bool,int,bool,bool,bool,single,single) (at Assets/Scripts/field.cs:271)
 main:Update () (at Assets/Scripts/main.cs:170)
 
---> PASS: tile4 with id (#1) and complexity of (4) successfully populated
+--> PASS: tile4 with id (#2) and complexity of (4) successfully populated
 UnityEngine.Debug:Log (object)
 tile:Populate (single,int,int,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,System.Collections.Generic.List`1<string>,int) (at Assets/Scripts/tile.cs:350)
-field:BuildField (int,single,bool,int,bool,bool,bool,single,single) (at Assets/Scripts/field.cs:273)
+field:BuildField (int,single,bool,int,bool,bool,bool,single,single) (at Assets/Scripts/field.cs:271)
 main:Update () (at Assets/Scripts/main.cs:170)
 
 FIELD.CS TEST cont. (ITERATION #5)
 UnityEngine.Debug:Log (object)
-field:BuildField (int,single,bool,int,bool,bool,bool,single,single) (at Assets/Scripts/field.cs:286)
+field:BuildField (int,single,bool,int,bool,bool,bool,single,single) (at Assets/Scripts/field.cs:284)
 main:Update () (at Assets/Scripts/main.cs:170)
 
 --> PASS: qty (2) unique queries is possible with (4) tiles of (8) attributes
 UnityEngine.Debug:Log (object)
-field:GenerateQA (int,int) (at Assets/Scripts/field.cs:311)
-main:Update () (at Assets/Scripts/main.cs:172)
-
-  * INFO: selected tileID for query: 3
-UnityEngine.Debug:Log (object)
-field:GenerateQA (int,int) (at Assets/Scripts/field.cs:325)
-main:Update () (at Assets/Scripts/main.cs:172)
-
-  * INFO: selected attribute for query: 5
-UnityEngine.Debug:Log (object)
-field:GenerateQA (int,int) (at Assets/Scripts/field.cs:326)
+field:GenerateQA (int,int) (at Assets/Scripts/field.cs:309)
 main:Update () (at Assets/Scripts/main.cs:172)
 
   * INFO: selected tileID for query: 4
 UnityEngine.Debug:Log (object)
-field:GenerateQA (int,int) (at Assets/Scripts/field.cs:325)
+field:GenerateQA (int,int) (at Assets/Scripts/field.cs:323)
 main:Update () (at Assets/Scripts/main.cs:172)
 
-  * INFO: selected attribute for query: 8
+  * INFO: selected attribute for query: 7
 UnityEngine.Debug:Log (object)
-field:GenerateQA (int,int) (at Assets/Scripts/field.cs:326)
+field:GenerateQA (int,int) (at Assets/Scripts/field.cs:324)
 main:Update () (at Assets/Scripts/main.cs:172)
 
---> PASS: valid query set for selected tile & attribute: "What is the color of the number "7"?
-What color is the text of "green" and "square"?
+  * INFO: selected tileID for query: 3
+UnityEngine.Debug:Log (object)
+field:GenerateQA (int,int) (at Assets/Scripts/field.cs:323)
+main:Update () (at Assets/Scripts/main.cs:172)
+
+  * INFO: selected attribute for query: 1
+UnityEngine.Debug:Log (object)
+field:GenerateQA (int,int) (at Assets/Scripts/field.cs:324)
+main:Update () (at Assets/Scripts/main.cs:172)
+
+--> PASS: valid query set for selected tile & attribute: "What shape is written in tile #4?
+What is the background color of tile #3?
 "
 UnityEngine.Debug:Log (object)
-field:GenerateQA (int,int) (at Assets/Scripts/field.cs:377)
+field:GenerateQA (int,int) (at Assets/Scripts/field.cs:375)
 main:Update () (at Assets/Scripts/main.cs:172)
 
---> PASS: valid answer set for selected query: "red yellow"
+--> PASS: valid answer set for selected query: "rectangle yellow"
 UnityEngine.Debug:Log (object)
-field:GenerateQA (int,int) (at Assets/Scripts/field.cs:378)
+field:GenerateQA (int,int) (at Assets/Scripts/field.cs:376)
 main:Update () (at Assets/Scripts/main.cs:172)
 
