@@ -7,7 +7,7 @@ Within the realm of systems programming and development, computer science profes
 
 ## Usage & Options
 
-Complete User Guide: https://github.com/jflum/CSU-Senior-Project/blob/master/docs/tutorial.pdf
+Application User Guide: https://github.com/jflum/CSU-Senior-Project/blob/master/docs/tutorial.pdf
 * Quick Start – page 1
 * Settings and Profile – page 2
 * Gameplay Field – page 3
@@ -28,5 +28,5 @@ For additional information regarding Unity workflow, please visit: https://docs.
 ## Testing
 
   * Requirements: https://github.com/jflum/CSU-Senior-Project/blob/master/docs/Requirements.pptx
-  * Test Plan: https://github.com/jflum/CSU-Senior-Project/blob/master/docs/Test_Plan.docx
+  * Test Plan/Results: https://github.com/jflum/CSU-Senior-Project/blob/master/docs/Test_Plan.docx
   * Test Case Log: https://github.com/jflum/CSU-Senior-Project/blob/master/tests/debug_log_230914.txt
