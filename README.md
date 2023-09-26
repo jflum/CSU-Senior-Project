@@ -7,7 +7,7 @@ Within the realm of systems programming and development, computer science profes
 
 ## Usage & Options
 
-Application User Guide: https://github.com/jflum/CSU-Senior-Project/blob/master/docs/tutorial.pdf
+Instruction Booklet: https://github.com/jflum/CSU-Senior-Project/blob/master/docs/tutorial.pdf
 * Quick Start – page 1
 * Settings and Profile – page 2
 * Gameplay Field – page 3
